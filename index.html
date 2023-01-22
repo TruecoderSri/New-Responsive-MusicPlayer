@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon (1).ico" />
+    <title>Tuneify-tune the way you like!!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.jpg" alt="tuneify" /></li>
+        <li>Home</li>
+        <li>Profile</li>
+        <li>Sign-In</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Playlist</h1>
+        <div class="songContainer">
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="1"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="cover1.jpg" alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="2"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="cover1.jpg" alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="3"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="cover1.jpg" alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="4"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="5"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="6"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="7"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="8"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="9"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="10"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName"></span>
+            <span class="songListPlay"
+              ><span class="timeStamp">
+                <i
+                  id="11"
+                  class="songItemPlay fas fa-2x fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+        <div class="songBanner"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="progressBar"
+        value="0"
+        min="0"
+        max="100 "
+      />
+      <div class="icons">
+        <!-- fontAwesome -->
+        <i id="previous" class="fas fa-2x fa-step-backward"></i>
+        <i id="masterPlay" class="fas fa-2x fa-play-circle"></i>
+        <i id="next" class="fas fa-2x fa-step-forward"></i>
+      </div>
+      <div class="songInfo">
+        <div class="images">
+          <img id="imgRender" src="./images/hymn.jpg" alt="" />
+          <img src="playing.gif" alt="desc" id="gif" />
+        </div>
+        <div class="songNameD">
+          <p id="songRender">Hymn for the weekend</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/49728e17b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
